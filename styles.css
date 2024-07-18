@@ -272,6 +272,37 @@ body {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    font-weight: 800;
+    color: #132045;
+}
+
+.card-text {
+    color: #132045;
+}
+.card .row.no-gutters {
+    height: 100%;
+}
 .stat-card {
     border: 1px solid #ddd;
     border-radius: 15px;
@@ -312,6 +343,10 @@ body {
     flex: 1;
     margin-bottom: 20px;
     order: 2;
+}
+.industries-solutions h3 {
+    color: #132045;
+    font-weight: 800;
 }
 .industries-grid {
     display: grid;
